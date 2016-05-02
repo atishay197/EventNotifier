@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>HELLCAT</Machine>
+    <WindowsUser>atishay197</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>217d32c7-c5bc-4064-a3ea-c75c1a749dca</PackageIdentityName>
+    <IntermediateOutputPath>f:\documents\visual studio 2015\Projects\EventNotifier1.2\EventNotifier1.2\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="f:\documents\visual studio 2015\Projects\EventNotifier1.2\EventNotifier1.2\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="f:\documents\visual studio 2015\Projects\EventNotifier1.2\EventNotifier1.2\bin\Debug\EventNotifier1.2.exe">
+      <PackagePath>EventNotifier1.2.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="f:\documents\visual studio 2015\Projects\EventNotifier1.2\EventNotifier1.2\DataModel\SampleData.json">
+      <PackagePath>DataModel\SampleData.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="f:\documents\visual studio 2015\Projects\EventNotifier1.2\EventNotifier1.2\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="f:\documents\visual studio 2015\Projects\EventNotifier1.2\EventNotifier1.2\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="f:\documents\visual studio 2015\Projects\EventNotifier1.2\EventNotifier1.2\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="f:\documents\visual studio 2015\Projects\EventNotifier1.2\EventNotifier1.2\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="f:\documents\visual studio 2015\Projects\EventNotifier1.2\EventNotifier1.2\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="f:\documents\visual studio 2015\Projects\EventNotifier1.2\EventNotifier1.2\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="f:\documents\visual studio 2015\Projects\EventNotifier1.2\EventNotifier1.2\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="f:\documents\visual studio 2015\Projects\EventNotifier1.2\EventNotifier1.2\bin\Debug\EventNotifier1.2.xr.xml">
+      <PackagePath>EventNotifier1.2.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="f:\documents\visual studio 2015\Projects\EventNotifier1.2\EventNotifier1.2\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="f:\documents\visual studio 2015\Projects\EventNotifier1.2\EventNotifier1.2\bin\Debug\GroupedItemsPage.xbf">
+      <PackagePath>GroupedItemsPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="f:\documents\visual studio 2015\Projects\EventNotifier1.2\EventNotifier1.2\bin\Debug\GroupDetailPage.xbf">
+      <PackagePath>GroupDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="f:\documents\visual studio 2015\Projects\EventNotifier1.2\EventNotifier1.2\bin\Debug\ItemDetailPage.xbf">
+      <PackagePath>ItemDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="f:\documents\visual studio 2015\Projects\EventNotifier1.2\EventNotifier1.2\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
